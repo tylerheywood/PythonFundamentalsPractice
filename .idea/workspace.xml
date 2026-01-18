@@ -1,22 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="796debdb-8168-4457-a845-be3cb7b9df5c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonFundamentalsPractice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="796debdb-8168-4457-a845-be3cb7b9df5c" name="Changes" comment="practice from Dec 25 - Present (18/01/2026)">
+      <change afterPath="$PROJECT_DIR$/09-min-max-tracker/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "tylerheywood"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/tylerheywood/PythonFundamentalsPractice.git",
+    "accountId": "969bf79b-fa26-48fc-b537-47bd5ad88b88"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -50,6 +68,27 @@
       <option name="presentableId" value="Default" />
       <updated>1768778223433</updated>
     </task>
+    <task id="LOCAL-00001" summary="practice from Dec 25 - Present (18/01/2026)">
+      <option name="closed" value="true" />
+      <created>1768778616129</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768778616129</updated>
+    </task>
+    <task id="LOCAL-00002" summary="practice from Dec 25 - Present (18/01/2026)">
+      <option name="closed" value="true" />
+      <created>1768778867287</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768778867287</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="practice from Dec 25 - Present (18/01/2026)" />
+    <option name="LAST_COMMIT_MESSAGE" value="practice from Dec 25 - Present (18/01/2026)" />
   </component>
 </project>
