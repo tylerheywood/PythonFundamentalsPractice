@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="796debdb-8168-4457-a845-be3cb7b9df5c" name="Changes" comment="min max tracker challenge added">
-      <change afterPath="$PROJECT_DIR$/10-validated-input-&amp;-skip-logic/main.py" afterDir="false" />
+    <list default="true" id="796debdb-8168-4457-a845-be3cb7b9df5c" name="Changes" comment="input validation and skip logic using try/except to validate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,13 +99,22 @@
       <option name="project" value="LOCAL" />
       <updated>1768779505751</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="input validation and skip logic using try/except to validate">
+      <option name="closed" value="true" />
+      <created>1768782838860</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768782838860</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="practice from Dec 25 - Present (18/01/2026)" />
     <MESSAGE value="min max tracker challenge added" />
-    <option name="LAST_COMMIT_MESSAGE" value="min max tracker challenge added" />
+    <MESSAGE value="input validation and skip logic using try/except to validate" />
+    <option name="LAST_COMMIT_MESSAGE" value="input validation and skip logic using try/except to validate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
