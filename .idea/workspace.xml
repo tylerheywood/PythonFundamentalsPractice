@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="796debdb-8168-4457-a845-be3cb7b9df5c" name="Changes" comment="Returning structured results using OOP" />
+    <list default="true" id="796debdb-8168-4457-a845-be3cb7b9df5c" name="Changes" comment="restructuring and refactoring Leetcode project into this one">
+      <change afterPath="$PROJECT_DIR$/02-LeetCode-Solutions/03-longest-substring-without-repeating-characters/03-longest-substring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-LeetCode-Solutions/02-add-two-numbers/02-add-two-numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/02-LeetCode-Solutions/02-add-two-numbers/02-add-two-numbers.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +30,12 @@
     &quot;assignee&quot;: &quot;tylerheywood&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/tylerheywood/PythonFundamentalsPractice.git",
-    "accountId": "48cf7561-d9b7-4a82-bdb4-706f88a6c6b2"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tylerheywood/PythonFundamentalsPractice.git&quot;,
+    &quot;accountId&quot;: &quot;48cf7561-d9b7-4a82-bdb4-706f88a6c6b2&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -43,6 +47,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.01-Two-Sum.executor": "Run",
+    "Python.02-add-two-numbers.executor": "Run",
+    "Python.03-longest-substring.executor": "Run",
     "Python.balancetracker.executor": "Run",
     "Python.main.executor": "Run",
     "Python.v3.executor": "Run",
@@ -53,13 +60,22 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Coding\PyCharm Projects\PythonFundamentalsPractice" />
+      <recent name="$PROJECT_DIR$/02-LeetCode-Solutions/02-add-two-numbers" />
+      <recent name="$PROJECT_DIR$/02-LeetCode-Solutions/01-two-sum" />
+      <recent name="$PROJECT_DIR$/02-LeetCode-Solutions" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/01-Practice-projects" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -78,6 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1768778223433</updated>
       <workItem from="1768902064549" duration="172000" />
+      <workItem from="1768908266521" duration="7190000" />
     </task>
     <task id="LOCAL-00001" summary="practice from Dec 25 - Present (18/01/2026)">
       <option name="closed" value="true" />
@@ -151,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768863063055</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="restructuring and refactoring Leetcode project into this one">
+      <option name="closed" value="true" />
+      <created>1768908535293</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1768908535293</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,17 +189,27 @@
     <MESSAGE value="misc projects added from pre-training repo" />
     <MESSAGE value="refactoring into functions + misc projects from pre project" />
     <MESSAGE value="Returning structured results using OOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Returning structured results using OOP" />
+    <MESSAGE value="restructuring and refactoring Leetcode project into this one" />
+    <option name="LAST_COMMIT_MESSAGE" value="restructuring and refactoring Leetcode project into this one" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/09-min-max-tracker/main.py</url>
+          <url>file://$PROJECT_DIR$/01-Practice-Projects/09-min-max-tracker/main.py</url>
           <line>42</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/02-LeetCode-Solutions/02-add-two-numbers/02-add-two-numbers.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PythonFundamentalsPractice$01_Two_Sum.coverage" NAME="01-Two-Sum Coverage Results" MODIFIED="1768908422401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-LeetCode-solutions" />
+    <SUITE FILE_PATH="coverage/PythonFundamentalsPractice$02_add_two_numbers.coverage" NAME="02-add-two-numbers Coverage Results" MODIFIED="1768913204050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-LeetCode-Solutions/02-add-two-numbers" />
+    <SUITE FILE_PATH="coverage/PythonFundamentalsPractice$03_longest_substring.coverage" NAME="03-longest-substring Coverage Results" MODIFIED="1768919011803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-LeetCode-Solutions/03-longest-substring-without-repeating-characters" />
   </component>
 </project>
