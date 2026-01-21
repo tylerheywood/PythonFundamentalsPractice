@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="796debdb-8168-4457-a845-be3cb7b9df5c" name="Changes" comment="challenge 15 completed command engine with multiple states">
+    <list default="true" id="796debdb-8168-4457-a845-be3cb7b9df5c" name="Changes" comment="devlog update + pdf scraper challenge 16">
+      <change afterPath="$PROJECT_DIR$/02-LeetCode-Solutions/13-roman-to-integer/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00-Misc/DEV_LOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/00-Misc/DEV_LOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00-Misc/pdf-generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/00-Misc/pdf-generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00-Misc/sample.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/00-Misc/sample invoices/sample.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Practice-Projects/16-PDF1-extract-text/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/01-Practice-Projects/16-PDF1-extract-text/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +208,23 @@
       <option name="project" value="LOCAL" />
       <updated>1769011731011</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="devlog update + pdf scraper challenge 16">
+      <option name="closed" value="true" />
+      <created>1769034698511</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1769034698511</updated>
+    </task>
+    <task id="LOCAL-00015" summary="devlog update + pdf scraper challenge 16">
+      <option name="closed" value="true" />
+      <created>1769034703585</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1769034703585</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +241,8 @@
     <MESSAGE value="challenge 13 added decoupling input from logic using main and functions, have asked for change of project scope from here" />
     <MESSAGE value="challenge 14 added CLI engine" />
     <MESSAGE value="challenge 15 completed command engine with multiple states" />
-    <option name="LAST_COMMIT_MESSAGE" value="challenge 15 completed command engine with multiple states" />
+    <MESSAGE value="devlog update + pdf scraper challenge 16" />
+    <option name="LAST_COMMIT_MESSAGE" value="devlog update + pdf scraper challenge 16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -256,6 +270,10 @@
           <url>file://$PROJECT_DIR$/01-Practice-Projects/14-text-command-processor/main.py</url>
           <line>81</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/02-LeetCode-Solutions/13-roman-to-integer/main.py</url>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
