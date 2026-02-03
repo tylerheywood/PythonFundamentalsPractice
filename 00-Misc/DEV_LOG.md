@@ -86,3 +86,10 @@ last change is PO detection additions.
 
 ## 2026-01-22
 - Touched on "Stack" data structures LIFO, like a deck of cards in rummy you can only take the last item you put on top
+
+## 2026-01-29
+- Not been into this repo for just over a week, was finishing off the technical documents for v1 of ICS
+- Shipped first public repo project "AP - Inbox Control System"
+
+## 2026-01-30
+- 
